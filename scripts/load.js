@@ -1,5 +1,6 @@
 function preload(){
     imagemCenario = loadImage('imagens/cenario/floresta.png');
+    imagemCenario2 = loadImage('imagens/cenario/nuvem.png');
     imagemGameOver = loadImage('imagens/assets/game-over.png');
     imagemPersonagem = loadImage('imagens/personagem/correndo.png');
     imagemInimigo = loadImage('imagens/inimigos/gotinha.png');
@@ -9,6 +10,6 @@ function preload(){
     fonteTelaInicial = loadFont('imagens/assets/fonteTelaInicial.otf');
     imagemVida = loadImage('imagens/assets/coracao.png');
     fita = loadJSON('fita/fita.json');
-    somDoJogo = loadSound('sons/trilha_jogo.mp3');
+    somDoJogo = loadSound('sons/trilha_pink.mp3');
     somDoPulo = loadSound('sons/somPulo.mp3');
   }

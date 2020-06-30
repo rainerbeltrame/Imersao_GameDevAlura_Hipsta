@@ -4,7 +4,8 @@ class Jogo {
         this.mapa = fita.mapa;
     }
 setup() {
-    cenario = new Cenario(imagemCenario,3);  
+    cenario2 = new Cenario(imagemCenario,3);
+    cenario = new Cenario(imagemCenario2, 3);  
     pontuacao = new Pontuacao();
     vida = new Vida(fita.configuracoes.vidaMaxima, fita.configuracoes.vidaInicial);  
     personagem = new Personagem(matrizPersonagem, baseCollisionPolygonPersonagem, imagemPersonagem, 0, 30, 110, 135, 220, 270);
@@ -24,7 +25,8 @@ setup() {
     }
     draw(){
         cenario.exibe();
-        cenario.move();
+        cenario2.exibe();
+        cenario2.move();
         vida.draw();
         pontuacao.exibe();
         pontuacao.adicionarPonto();

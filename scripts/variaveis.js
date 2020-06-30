@@ -1,4 +1,5 @@
 let imagemCenario;
+let imagemCenario2;
 let imagemPersonagem;
 let imagemInimigo;
 let imagemInimigoGrande;
@@ -18,6 +19,7 @@ let botaoGerenciador;
 let vida;
 
 let cenario;
+let cenario2;
 let somDoJogo;
 let personagem;
 let inimigo;
